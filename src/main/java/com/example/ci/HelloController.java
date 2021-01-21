@@ -12,7 +12,16 @@ public class HelloController{
 
 	@RequestMapping("/")
 	public String index(){
-		return "Hello World!";
+		return "Hello World! mike";
 	}
 
+	@RequestMapping("/hello")
+	public String hello(){
+		return "Hello World 1234!";
+	}
+
+	@RequestMapping("/from")
+	public String from(){
+		return "Hello World from!";
+	}
 }
